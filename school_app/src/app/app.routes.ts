@@ -3,6 +3,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ActivitesComponent } from './pages/activites/activites.component';
 import { ArchiversComponent } from './pages/archivers/archivers.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { ErrorComponent } from './pages/error/error.component';
 
 
 export const routes: Routes = [
@@ -33,5 +34,11 @@ export const routes: Routes = [
         component: ContactComponent,
         
     },
+    {
+        path:"**",
+        title: "error",
+        component: ErrorComponent
+     },
+ 
 
 ];
