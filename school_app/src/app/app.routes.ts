@@ -22,7 +22,7 @@ export const routes: Routes = [
     },
 
     {    path:"archivers",
-         title: "archivers",
+         title: "achievers",
         component: ArchiversComponent,
 
     },
