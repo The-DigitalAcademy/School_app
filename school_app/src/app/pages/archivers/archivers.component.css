@@ -4,12 +4,21 @@
     color: aliceblue;
     font-size: 20px;
 }
+
+h2{ color:rgb(48, 142, 193);
+    text-decoration:underline ;
+
+}
 h3{
     background-color: #1e549f;
     color: aliceblue;
 }
 img{
     margin-top: 50px;
+}
+
+.grade11{  padding-bottom: 50px;
+
 }
 
 
