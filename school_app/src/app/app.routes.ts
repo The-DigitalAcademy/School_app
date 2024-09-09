@@ -42,16 +42,17 @@ export const routes: Routes = [
         
     },
     {
+        path: "about", 
+        title:"about",
+        component: AboutComponent,
+    },
+
+
+    {
         path:"**",
         title: "error",
         component: ErrorComponent,
      },
      
-     {
-path: "AboutComponent",
-title: "about",
-component: AboutComponent,
-    },
-
-
+    
 ];
