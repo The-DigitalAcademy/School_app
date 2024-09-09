@@ -8,6 +8,7 @@ import { ArchiversComponent } from './pages/archivers/archivers.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ErrorComponent } from './pages/error/error.component';
 
+
 import { AboutComponent } from './pages/about/about.component';
 
 
@@ -44,12 +45,8 @@ export const routes: Routes = [
         title: "error",
         component: ErrorComponent,
      },
-    {
-     path:"about",
-     title: "about",
-     component: AboutComponent,
+ 
 
 
- },
 
 ];
