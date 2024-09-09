@@ -12,6 +12,7 @@ import { ErrorComponent } from './pages/error/error.component';
 import { AboutComponent } from './pages/about/about.component';
 
 
+
 export const routes: Routes = [
 
     {
@@ -45,8 +46,12 @@ export const routes: Routes = [
         title: "error",
         component: ErrorComponent,
      },
- 
-
+     
+     {
+path: "AboutComponent",
+title: "about",
+component: AboutComponent,
+    },
 
 
 ];
