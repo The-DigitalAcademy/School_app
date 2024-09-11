@@ -3,12 +3,12 @@ import { NavComponent } from '../../UI/shared/nav/nav.component';
 import { FooterComponent } from '../../UI/shared/footer/footer.component';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-about',
   standalone: true,
   imports: [NavComponent,FooterComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  templateUrl: './about.component.html',
+  styleUrl: './about.component.css'
 })
-export class HomeComponent {
+export class AboutComponent {
 
 }
