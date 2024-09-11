@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
-import { HomeComponent } from './pages/home/home.component';
 import { ActivitesComponent } from './pages/activites/activites.component';
 import { ArchiversComponent } from './pages/archivers/archivers.component';
 import { ContactComponent } from './pages/contact/contact.component';
@@ -8,7 +7,7 @@ import { ErrorComponent } from './pages/error/error.component';
 import { AboutComponent } from './pages/about/about.component';
 
 export const routes: Routes = [
- 
+
 
     {
         path: "",
@@ -17,7 +16,7 @@ export const routes: Routes = [
 
     },
 
-    { 
+    {
         path: "activities",
         title: "activities",
         component: ActivitesComponent,
@@ -34,10 +33,10 @@ export const routes: Routes = [
         path:"contact",
         title: "contact",
         component: ContactComponent,
-        
+
     },
     {
-        path: "about", 
+        path: "about",
         title:"about",
         component: AboutComponent,
     },
@@ -48,7 +47,7 @@ export const routes: Routes = [
         title: "error",
         component: ErrorComponent,
      },
-     
-    
+
+
 
 ];
