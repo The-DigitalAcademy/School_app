@@ -1,0 +1,44 @@
+#events {
+    color:rgb(0, 0, 0)
+}
+
+#extra{
+    color:rgb(0, 0, 0)
+}
+#art{
+    color:rgb(0, 0, 0)
+}
+#sport{
+    color:rgb(0, 0, 0)
+}
+
+#school{
+    color:rgb(0, 0, 0);
+    padding-bottom: 5px;
+    margin-top: -50px;
+}
+
+#sportB{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+#artB{
+    background: #ffffff;
+    color: aliceblue;
+}
+#extraB{
+    background: #ffffff;
+    color: aliceblue;
+}
+
+#eventsB{
+    background: #f0f0f0;
+    color: aliceblue;
+}
+img{
+    border-radius: 10px;
+}
+#main{
+    margin-bottom: -50px;
+}
